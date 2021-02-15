@@ -11,6 +11,12 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 
 /* Global styles
 ------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     color: #343434;
     margin: 0;
@@ -71,7 +77,9 @@ header {
 .projects .btn:hover {
     background: rgba(47, 48, 97, 80%);
 }
-
+.project-item img {
+    float: left;
+}
 /* Work Experience
 ------------------------------------*/
 .work-experience {
